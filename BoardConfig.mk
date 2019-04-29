@@ -62,9 +62,6 @@ BOARD_CACHEIMAGE_TYPE := ext4
 BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Flags
-TARGET_GLOBAL_CFLAGS   += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
-
 TARGET_KMODULES := true
 
 BOARD_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
